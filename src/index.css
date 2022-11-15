@@ -5,6 +5,11 @@
   font-family: "Red Rose", sans-serif;
   text-shadow: none !important;
 }
+@font-face {
+  font-family: "Red rose";
+  src: local("Red rose"),
+    url(./assets/fonts/RedRose-Regular.ttf) format("truetype");
+}
 a,
 a:visited {
   text-decoration: none;

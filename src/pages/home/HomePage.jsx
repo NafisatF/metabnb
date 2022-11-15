@@ -42,7 +42,7 @@ const HomePage = () => {
           Inspiration for your next adventure
         </h2>
         <div className={styles.bnb_container}>
-          {bnbCardsHome.slice(0, 7).map((bnb) => (
+          {bnbCardsHome.slice(0, 8).map((bnb) => (
             <BnBCard bnb={bnb} />
           ))}
         </div>
