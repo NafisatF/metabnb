@@ -1,0 +1,8 @@
+.section {
+  background-color: var(--primary);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.6rem 0;
+  align-items: center;
+  margin: 4rem 0;
+}

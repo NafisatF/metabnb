@@ -1,0 +1,23 @@
+.search_bar {
+  display: flex;
+  height: 50px;
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+}
+
+input {
+  border-radius: 6px;
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+}
+button {
+  background-color: var(--primary);
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  color: white;
+  width: 150px;
+  border: none;
+  outline: none;
+}
