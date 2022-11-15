@@ -50,6 +50,22 @@
   font-size: 1rem;
   line-height: 1.7;
   width: 80%;
-
   margin: 2rem 0;
+}
+
+.bnb_heading {
+  margin: 3rem 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .home_container,
+  .nft_section {
+    flex-direction: column-reverse;
+  }
+  .bnb_container {
+    gap: 1rem;
+  }
+  .nft_section_left p {
+    width: 100%;
+  }
 }

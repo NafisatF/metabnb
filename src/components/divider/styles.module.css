@@ -6,3 +6,12 @@
   align-items: center;
   margin: 4rem 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .section {
+    flex-direction: column;
+  }
+  .section div {
+    margin: 1rem 0;
+  }
+}

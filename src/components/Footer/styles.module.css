@@ -1,5 +1,5 @@
 .footer {
-  background-color: #000;
+  background-color: #1d1d1e;
   display: flex;
   justify-content: space-between;
   color: #fff;
@@ -28,7 +28,16 @@
 .footer_link_each ul li {
   list-style: none;
   text-align: left;
-  margin: 1rem 0;
+  font-size: 0.9rem;
+  transition: all 0.3s ease-in-out;
+  padding: 1rem 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.footer_link_each ul li:hover {
+  background-color: var(--primary);
+  color: white;
+  padding: 1rem;
 }
 
 h3 {
@@ -41,4 +50,15 @@ h3 {
   justify-content: center;
   gap: 1rem;
   margin: 3rem 0;
+}
+
+@media screen and (max-width: 720px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 3rem 1.5rem;
+  }
+  .footer_link_container {
+    flex-direction: column;
+  }
 }

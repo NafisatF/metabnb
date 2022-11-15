@@ -15,8 +15,7 @@ const HomePage = () => {
         <div className={styles.home_container_left}>
           <h1 className={styles.home_heading}>
             Rent a <span className={styles.highlighted}>Place</span> away from
-            <br />
-            <span className={styles.highlighted}>Home</span> in the{" "}
+            <span className={styles.highlighted}> Home</span> in the{" "}
             <span className={styles.highlighted}>Metaverse</span>
           </h1>
 
@@ -39,9 +38,11 @@ const HomePage = () => {
       </div>
       <Divider />
       <section>
-        <h2>Inspiration for your next adventure</h2>
+        <h2 className={styles.bnb_heading}>
+          Inspiration for your next adventure
+        </h2>
         <div className={styles.bnb_container}>
-          {bnbCardsHome.map((bnb) => (
+          {bnbCardsHome.slice(0, 7).map((bnb) => (
             <BnBCard bnb={bnb} />
           ))}
         </div>

@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Red Rose", cursive;
+  font-family: "Red Rose", sans-serif;
   text-shadow: none !important;
 }
 a,
@@ -15,4 +15,5 @@ a:visited {
   --primary: #a02279;
   --gray: #434343;
   --lightgray: #a3a3a3;
+  --mid-gray: #cfd8dc;
 }

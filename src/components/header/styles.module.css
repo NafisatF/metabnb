@@ -12,3 +12,71 @@
   font-size: 1.2rem;
   color: var(--gray);
 }
+.bar {
+  display: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.drawer_in_view {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  transition: all 0.4s ease;
+  background-color: var(--primary);
+  padding: 3rem 2rem;
+}
+.drawer_closed {
+  position: fixed;
+  top: -100px;
+  right: 0;
+  left: 0;
+  transition: all 0.4s ease;
+  background-color: var(--primary);
+}
+.sidebar_close {
+  font-size: 2rem;
+  cursor: pointer;
+  position: absolute;
+  right: 2rem;
+  background: white;
+  border-radius: 50%;
+}
+.sidebar_links {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-top: 2rem;
+  align-items: left;
+}
+.sidebar_links a {
+  padding: 1rem;
+  text-align: left;
+  transition: all 0.2s ease-in-out;
+}
+.sidebar_links a:hover {
+  background-color: #fff;
+  color: var(--primary);
+  border-radius: 5px;
+}
+.sidebar_button {
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .navlinks,
+  .button_container {
+    display: none;
+  }
+  .bar {
+    display: block;
+  }
+}

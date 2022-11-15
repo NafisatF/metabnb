@@ -5,6 +5,8 @@
   border-radius: 10px;
   padding: 1rem;
   text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 .sec_button {
   width: 200px;
@@ -13,4 +15,16 @@
   border-radius: 10px;
   padding: 1rem;
   text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.button:hover {
+  border: 1px solid var(--primary);
+  background: transparent;
+  color: var(--primary);
+}
+.sec_button:hover {
+  border: 1px solid #fff;
+  background: transparent;
+  color: white;
 }

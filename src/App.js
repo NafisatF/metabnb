@@ -3,6 +3,7 @@ import "./App.css";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/header/Navbar";
 import HomePage from "./pages/home/HomePage";
+import Place from "./pages/place/Place";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/place" element={<Place />} />
         </Routes>
         <Footer />
       </BrowserRouter>
