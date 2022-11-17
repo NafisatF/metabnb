@@ -30,6 +30,7 @@
 .bnb_container {
   display: flex;
   flex-wrap: wrap;
+  gap: 1.1rem;
   justify-content: space-around;
 }
 
